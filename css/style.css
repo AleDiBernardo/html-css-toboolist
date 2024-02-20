@@ -4,6 +4,46 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: red;
+
+.bg-color {
+    background-color: lightcyan;
 }
+
+
+
+/* HEADER */
+.header {
+    height: 75px;
+    text-align: center;
+
+}
+.logo-header {
+    width: 250px;
+    margin-top: 8px;
+}
+
+/* MAIN */
+
+.main-section {
+    width: 50%;
+    height: 900px;
+    margin: 50px auto;
+}
+
+.container{
+    background-color: lightcyan;
+    border-radius: 20px;
+    height: 100%;
+}
+
+/* SEARCH BAR SECTION */
+
+.search-bar-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hr-line{
+    border: 2px solid white;
+}
+
