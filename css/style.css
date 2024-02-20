@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 25px;
 }
 
 
 .bg-color {
-    background-color: lightcyan;
+    background-color: rgb(237 242 247);
 }
-
-
 
 /* HEADER */
 .header {
@@ -25,13 +24,12 @@
 /* MAIN */
 
 .main-section {
-    width: 50%;
+    width: 40%;
     height: 900px;
     margin: 50px auto;
 }
 
 .container{
-    background-color: lightcyan;
     border-radius: 20px;
     height: 100%;
 }
@@ -47,3 +45,24 @@
     border: 2px solid white;
 }
 
+/* LIST SECTION */
+
+.list-section {
+    width: 80%;
+    margin: 40px auto
+}
+
+.list-section ul {
+    list-style-type: none;
+}
+
+/* ul.arrow-style{
+    list-style-type:;
+} */
+
+.innested-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px;
+}
