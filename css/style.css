@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 25px;
+    font-family: monospace;
 }
 
 
@@ -56,13 +57,39 @@
     list-style-type: none;
 }
 
-/* ul.arrow-style{
-    list-style-type:;
-} */
-
 .innested-item {
     background-color: white;
     border-radius: 8px;
     padding: 15px;
     margin: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    height: 55px;
+}
+
+.arrow-icon {
+    font-size: 35px;
+    color: lightgreen;
+}
+
+.task-section-font {
+    font-size: 30px;
+}
+
+.not-done-container {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.not-done-icon {
+    color: red;
+    font-size: 10px;
+    padding: 5px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.task-icon {
+    width: 30px;
 }
