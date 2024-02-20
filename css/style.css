@@ -26,13 +26,11 @@
 
 .main-section {
     width: 40%;
-    height: 900px;
     margin: 50px auto;
 }
 
 .container{
     border-radius: 20px;
-    height: 100%;
 }
 
 /* SEARCH BAR SECTION */
@@ -50,11 +48,16 @@
 
 .list-section {
     width: 80%;
-    margin: 40px auto
+    margin: 10px auto;
+    padding-bottom: 10px;
 }
 
 .list-section ul {
     list-style-type: none;
+}
+span {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .innested-item {
@@ -64,12 +67,11 @@
     margin: 10px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: grey;
-    height: 55px;
 }
 
 .arrow-icon {
     font-size: 35px;
-    color: lightgreen;
+    color: black;
 }
 
 .task-section-font {
@@ -91,5 +93,42 @@
 }
 
 .task-icon {
-    width: 30px;
+    width: 28px;
+    line-height: normal;   
+}
+
+.task-content {
+    font-size: 20px;
+}
+
+
+.editorial {
+   background-color: lightskyblue; 
+}
+
+.q-one-goals{
+    background-color: violet;
+}
+
+.recruiting {
+    background-color: lightgreen;
+}
+
+.light-salmon {
+    background-color: lightsalmon; 
+ }
+
+.website {
+    background-color: lightcoral;
+}
+
+.sales {
+    background-color: limegreen;
+}
+
+.tag {
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 15px;
 }
