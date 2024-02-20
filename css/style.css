@@ -43,10 +43,12 @@
 
 .btn-style {
     padding: 8px;
-    background-color: lightskyblue;
+    background-color: blue;
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: grab;
+    font-weight: bold;
 }
 
 .text-form{
@@ -87,10 +89,13 @@ span {
 
 .arrow-icon {
     font-size: 35px;
+    color: limegreen;
 }
 
 .task-section-font {
     font-size: 30px;
+    color: black;
+    font-weight: bold;
 }
 
 .not-done-container {
