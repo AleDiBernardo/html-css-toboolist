@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +7,31 @@
     font-family: monospace;
 }
 
-
 .bg-color {
     background-color: rgb(237 242 247);
 }
 
+
+/* COMMON */
+.innested-item,
+.task-icon {
+    vertical-align: middle;
+}
+
+.search-bar-section,
+.header {
+    text-align: center;
+}
+
+.btn-style,
+.text-form {
+    padding: 8px;
+}
+
+
 /* HEADER */
 .header {
     height: 75px;
-    text-align: center;
-
 }
 
 .logo-header {
@@ -24,7 +40,6 @@
 }
 
 /* MAIN */
-
 .main-section {
     width: 40%;
     margin: 50px auto;
@@ -34,15 +49,14 @@
     border-radius: 20px;
 }
 
-/* SEARCH BAR SECTION */
 
+/* SEARCH BAR SECTION */
 .search-bar-section {
     padding: 20px;
-    text-align: center;
 }
 
+/* Search Button */
 .btn-style {
-    padding: 8px;
     background-color: blue;
     color: white;
     border: none;
@@ -51,18 +65,18 @@
     font-weight: bold;
 }
 
+/* Search Text Box */
 .text-form{
     border: 3px solid lightgrey;
     border-radius: 5px;
-    padding: 8px;
 }
 
 .hr-line {
     border: 2px solid white;
 }
 
-/* LIST SECTION */
 
+/* LIST SECTION */
 .list-section {
     width: 80%;
     margin: 10px auto;
@@ -73,11 +87,7 @@
     list-style-type: none;
 }
 
-span {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
+/* Innested Item */
 .innested-item {
     background-color: white;
     border-radius: 8px;
@@ -87,14 +97,15 @@ span {
     color: grey;
 }
 
-.innested-item,
-.task-icon {
-    vertical-align: middle;
-}
-
+/* Arrow Icon */
 .arrow-icon {
     font-size: 35px;
     color: limegreen;
+}
+
+/* TASK SECTION */
+.task-content {
+    font-size: 20px;
 }
 
 .task-section-font {
@@ -103,30 +114,25 @@ span {
     font-weight: bold;
 }
 
-.not-done-container {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-}
-
-.not-done-icon {
-    color: red;
-    font-size: 10px;
-    padding: 5px;
-    border: 5px solid red;
-    border-radius: 50%;
-}
-
 .task-icon {
     width: 28px;
     line-height: normal;
 }
 
-.task-content {
-    font-size: 20px;
+
+/* LABEL */
+.label {
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+/* Line-Through */
+.line-through {
+    text-decoration: line-through;
 }
 
-
+/* Label Colors */
 .editorial {
     background-color: lightskyblue;
 }
@@ -151,13 +157,3 @@ span {
     background-color: limegreen;
 }
 
-.label {
-    color: white;
-    border-radius: 50px;
-    padding: 10px 20px;
-    font-size: 15px;
-}
-
-.line-through {
-    text-decoration: line-through;
-}
