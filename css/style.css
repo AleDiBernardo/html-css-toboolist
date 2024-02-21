@@ -87,6 +87,12 @@ span {
     color: grey;
 }
 
+.innested-item,
+.innested-list,
+.task-icon {
+    vertical-align: middle;
+}
+
 .arrow-icon {
     font-size: 35px;
     color: limegreen;
